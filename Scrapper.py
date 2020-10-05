@@ -12,13 +12,13 @@ wd = webdriver.Chrome('chromedriver', chrome_options=chrome_options)
 
 #directing discord to the right place
 baseurl = "https://discordapp.com/api/webhooks/"
-chanID = 717175807491047475
-authcode = "/0ryx7taCs_4kpUVypYztvG8EhJMsw3RJIQDntxpJ1tbXI5XO93dcGtuSR_LfNnKb09MP"
+chanID = //your channel here
+authcode = "/" //your auth code here
 nvidialink = "https://www.nvidia.com/en-us/shop/geforce/gpu/?page=1&limit=9&locale=en-us&category=GPU&gpu=RTX%203080"
 
 #Check stock + time
 #Ping when there is stock
-yes = {"content": 'Stock Avalible <@!260994078500585483> \n' + nvidialink}
+yes = {"content": 'Stock Avalible <@!"Ping user ID here> \n' + nvidialink}
 
 
 
